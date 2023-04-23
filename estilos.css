@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Newsreader', serif;
+}
+.linea-1 {
+    height: 5px;
+    background: linear-gradient(
+      to bottom,
+      transparent 2px,
+      black 2px,
+      black 3px,
+      transparent 1px
+    );
+  }
+.contenedor-reloj {
+    position: relative;
+    
+    top: -40px;
+    margin-bottom: -50px;
+    position: relative;
+    font-family: 'Newsreader', serif;
+    font-size: 13px;
+    text-align:left;
+    font-weight: bold;
+    
+}
+.contenedor-reloj p{
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Newsreader', serif;
+}
+
+
+.d-flex{
+    width: 300px;
+    position: relative;
+    left: -5px;
+    
+}
+.navbar{
+    background-color: rgb(213, 18, 18) !important;
+}
