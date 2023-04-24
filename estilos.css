@@ -17,6 +17,7 @@ h1{
       black 3px,
       transparent 1px
     );
+    margin-top: 5px;
   }
 .contenedor-reloj {
     position: relative;
@@ -45,7 +46,6 @@ header{
 }
 
 .navbar{
-    
     background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 }   
 .contenedor{
@@ -63,4 +63,12 @@ header{
 .nav-list li a{
     text-decoration: none;
     color: black;
+}
+h4{
+    position: relative;
+    top: auto;
+    font-family: 'Newsreader', serif;
+    font-weight: bold;
+    text-align:center;
+    
 }
